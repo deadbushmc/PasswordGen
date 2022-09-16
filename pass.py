@@ -49,6 +49,7 @@ def cont(cb):
         outro()
     else:
         print(f"{cb} is not a valid option")
+        print("Abort")
 
 def outro():
     print("Thank you for using password gen by DeadBush!")
